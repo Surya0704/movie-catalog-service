@@ -37,7 +37,7 @@ public class MovieInfo {
     }
 
     private CatalogItem getFallBackCatalogItem(Rating rating) {
-        return new CatalogItem("Movie Name not Found", " ", rating.getRating());
+        return new CatalogItem("Movie Name Not Found", " ", rating.getRating());
     }
     /*
 
